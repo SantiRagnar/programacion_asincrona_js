@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;600;700&display=swap');
 * {
     font-size: 24px;
 }
@@ -13,4 +13,50 @@ section {
 button {
     width: 200px;
     height: 50px;
+}
+
+#resultados{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+}
+
+.cont-personaje{
+    background-image: url("https://www.nasa.gov/sites/default/files/thumbnails/image/web_first_images_release_0.png");
+    font-family: 'Roboto Mono', monospace;
+    border-radius: 6px;
+    width: 300px;
+    height: 250px;
+    margin: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cont-img img{
+    border-radius: 50%;
+    width: 100px;
+    transform: translate(100px,20px);
+}
+
+.cont-info{
+    background-color: rgb(13, 12, 61);
+    color: #fff;
+    border-radius: 0 0 6px 6px;
+    padding: 0 2%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.cont-info h5 {
+    font-size: 1rem;
+    margin: 0;
+}
+.cont-info p {
+    margin: 0;
+    font-size: 0.8rem;
 }
